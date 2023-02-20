@@ -17,3 +17,8 @@ def bs_puts(stock_price, strike_price, time, risk_free, sigma):
     return strike_price*np.exp(-risk_free*time)*N(-d2) - stock_price*N(-d1)
 
 ### Black Scholes Valuation End ###
+
+### 3 Factor Model ###
+
+def fama_french(factor_coefficient):
+    pass
